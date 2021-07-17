@@ -1,13 +1,14 @@
-import logo from "./logo.svg";
 import "./App.scss";
-import { DefaultButton, DefaultCard } from "./components/index";
-import Footer from "../src/App/Footer/Footer";
+import Navbar from "./App/Navbar/Navbar";
+import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <Footer></Footer>
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar />
+      </div>
+    </Router>
   );
 }
 
