@@ -22,9 +22,17 @@ const Navbar = () => {
           <a href="https://fossnsbm.org/events">Events</a>
           <a href="https://forum.fossnsbm.org/">Forum</a>
         </div>
-        <DefaultButton variant="secondary" className={classNames.navBtn}>
-          Become a Member
-        </DefaultButton>
+
+        <Link
+          to={{
+            pathname: "https://forms.gle/xSeLtcHVU8e42t9b8",
+          }}
+          target="_blank"
+        >
+          <DefaultButton variant="secondary" className={classNames.navBtn}>
+            Become a Member
+          </DefaultButton>
+        </Link>
       </div>
     </div>
   );
