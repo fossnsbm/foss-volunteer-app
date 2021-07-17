@@ -1,24 +1,37 @@
-.site {
-    padding: 24px;
-    background-image : url('./work.jpg');    
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    height: 50vh;
-      
-  }
+.header {
+  background: url("../../assets/img/work.jpg") no-repeat center/ cover;
+  height: 500px;
+}
 
-  .HeaderBtn{     
-      cursor: pointer;
-      font-weight: 500;
-      width: 150px;
-      margin-bottom: 8%;       
-       
-  }
+.headerWrapper {
+  width: 80%;
+  max-width: 1200px;
+  max-height: 500px;
+  margin: 0 auto;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
 
-  .description{
-    color: white;   
-    display: flex;
-    align-items: center;
-    top: 50%;  
+.headerContent {
+  width: 50%;
+  color: #fff;
+  margin: 50% 0 20px 0 !important;
+}
+
+.headerBtn {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 18px;
+  margin: 0 0 50% 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .headerContent {
+    width: 100%;
+    text-align: center;
   }
+  .headerWrapper {
+    text-align: center;
+  }
+}
