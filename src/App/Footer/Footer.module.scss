@@ -1,16 +1,12 @@
 .footer {
-    margin: 0;
-    background-color: rgb(177, 168, 175);
-    height: 600px;
-
+  margin: 0;
+  background-color: #000;
 }
 
 .footerWrapper {
-    margin: 5px;
-
+  width: 80%;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
 }
-
-
-
-
-

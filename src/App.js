@@ -1,5 +1,6 @@
 import "./App.scss";
 import Navbar from "./App/Navbar/Navbar";
+import Footer from "./App/Footer/Footer";
 import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <Router>
       <div className="App">
         <Navbar />
+        <Footer />
       </div>
     </Router>
   );
