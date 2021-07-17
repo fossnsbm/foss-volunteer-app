@@ -1,16 +1,14 @@
-
 import "./App.scss";
-import { Header } from "./App/Header/Header";
-
+import Navbar from "./App/Navbar/Navbar";
+import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">       
-        
-        <Header></Header>      
-          
-     
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar />
+      </div>
+    </Router>
   );
 }
 
