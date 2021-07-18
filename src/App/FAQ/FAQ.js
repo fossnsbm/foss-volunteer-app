@@ -49,7 +49,7 @@ const FAQ = () => {
                 }}
               >
                 <Panel
-                  header="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                  header="How to get started?"
                   key="1"
                   className="site-collapse-custom-panel"
                 >
@@ -58,16 +58,17 @@ const FAQ = () => {
                   </p>
                 </Panel>
                 <Panel
-                  header="Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+                  header="Do I need previous experiences or qualifications for volunteering? "
                   key="2"
                   className="site-collapse-custom-panel"
                 >
                   <p style={{ fontWeight: "normal", paddingLeft: 29 }}>
                     {text}
+                    
                   </p>
                 </Panel>
                 <Panel
-                  header="This is panel header 3"
+                  header="How can I contribute to FOSS?"
                   key="3"
                   className="site-collapse-custom-panel"
                 >
@@ -76,7 +77,7 @@ const FAQ = () => {
                   </p>
                 </Panel>
                 <Panel
-                  header="This is panel header 4"
+                  header="Do I need a membership?"
                   key="4"
                   className="site-collapse-custom-panel"
                 >
