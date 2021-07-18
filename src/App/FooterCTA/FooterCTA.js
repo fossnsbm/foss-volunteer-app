@@ -1,4 +1,4 @@
-import classNames from "./FooterCard.module.scss";
+import classNames from "./FooterCTA.module.scss";
 import { DefaultButton, DefaultCard } from "../../components";
 import { Link } from "react-router-dom";
 
@@ -6,9 +6,13 @@ const FooterCard = () => {
   return (
     <div className={classNames.footerCard}>
       <div className={classNames.footerCardWrapper}>
-        <DefaultCard>
+        <DefaultCard
+          style={{ backgroundColor: "#f5f5f5" }}
+          border="no-border"
+          shadow="medium"
+        >
           <div className={classNames.card}>
-            <h1>
+            <h1 style={{ fontWeight: "600" }}>
               In open source, we feel strongly that to really do something well,
               you have to get a lot of people involved.
             </h1>
@@ -18,7 +22,11 @@ const FooterCard = () => {
               }}
               target="_blank"
             >
-              <DefaultButton size="large" className={classNames.footerBtn}>
+              <DefaultButton
+                size="large"
+                variant="secondary"
+                className={classNames.footerBtn}
+              >
                 Become a Member
               </DefaultButton>
             </Link>

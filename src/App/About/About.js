@@ -27,6 +27,7 @@ const About = () => {
           <Row gutter={{ xs: 12, sm: 12, md: 24, lg: 32 }}>
             <Col className="gutter-row" lg={6} md={12} sm={12} xs={24}>
               <DefaultCard
+                shadow="medium"
                 padding="sm"
                 border="no-border"
                 style={{
@@ -52,6 +53,7 @@ const About = () => {
             </Col>
             <Col className="gutter-row" lg={6} md={12} sm={12} xs={24}>
               <DefaultCard
+                shadow="medium"
                 padding="sm"
                 border="no-border"
                 style={{
@@ -77,6 +79,7 @@ const About = () => {
             </Col>
             <Col className="gutter-row" lg={6} md={12} sm={12} xs={24}>
               <DefaultCard
+                shadow="medium"
                 padding="sm"
                 border="no-border"
                 style={{
@@ -102,6 +105,7 @@ const About = () => {
             </Col>
             <Col className="gutter-row" lg={6} md={12} sm={12} xs={24}>
               <DefaultCard
+                shadow="medium"
                 padding="sm"
                 border="no-border"
                 style={{

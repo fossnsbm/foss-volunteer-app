@@ -29,7 +29,7 @@ const FAQ = () => {
               </p>
             </div>
           </Col>
-          <Col lg={13} md={24} sm={24} xs={24}>
+          <Col lg={14} md={24} sm={24} xs={24}>
             <div className={classNames.questions}>
               <Collapse
                 accordion
