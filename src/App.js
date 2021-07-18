@@ -6,9 +6,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import Header from "./App/Header/Header";
 import About from "./App/About/About";
 import FAQ from "./App/FAQ/FAQ";
-import FooterCard from "./App/FooterCard/FooterCard";
 import FooterCTA from "./App/FooterCTA/FooterCTA";
-
 
 function App() {
   return (
@@ -19,7 +17,6 @@ function App() {
         <About />
         <FAQ />
         <FooterCTA />
-        <FooterCard />
         <Footer />
       </div>
     </Router>

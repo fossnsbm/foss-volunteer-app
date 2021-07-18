@@ -1,28 +1,38 @@
-.footercta {
-    width: 80%;
-    height: auto;
-    border: "solid";
-    margin: 0;
-    max-width: 90%;
-    justify-content: space-evenly;
-    background-position: center;
-    margin: 10%;
-    align-items: left;
- 
-   }
-   .navBtn {
-     font-size: 16px;
-     font-weight: 500;
-     cursor: pointer;
-     margin-top: 18%;
-   }
-  
- 
- .descriptioncta {
-     color: rgb(10, 5, 5);
-     
-   
-     font-size: 16px;
-     font-weight: 500;
- }
- 
+.footerCard {
+  margin: 0;
+  padding: 40px 0;
+}
+
+.footerCardWrapper {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  > h1 {
+    width: 70%;
+  }
+}
+
+.footerBtn {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 768px) {
+  .card {
+    flex-direction: column;
+    text-align: center;
+    h1 {
+      width: 90%;
+    }
+  }
+  .footerBtn {
+    margin-top: 20px;
+  }
+}

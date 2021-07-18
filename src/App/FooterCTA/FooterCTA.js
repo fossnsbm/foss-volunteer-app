@@ -1,49 +1,40 @@
-import React from "react";
 import classNames from "./FooterCTA.module.scss";
-import { DefaultCard } from "../../components";
-import { DefaultButton } from "../../components";
-import { Row, Col, Typography } from "antd";
+import { DefaultButton, DefaultCard } from "../../components";
+import { Link } from "react-router-dom";
 
-const {Title} = Typography;
-
-const FooterCTA = () => {
-    return(
-        <div className={classNames.footercta}>
-
-            
-            <DefaultCard
-                padding="sm"
-                border="no-border"
-                style={{
-                  height: "260px",
-                  marginBottom: "20px",
-                  backgroundColor: "#f5f5f5",
-                }}
+const FooterCard = () => {
+  return (
+    <div className={classNames.footerCard}>
+      <div className={classNames.footerCardWrapper}>
+        <DefaultCard
+          style={{ backgroundColor: "#f5f5f5" }}
+          border="no-border"
+          shadow="medium"
+        >
+          <div className={classNames.card}>
+            <h1 style={{ fontWeight: "600" }}>
+              In open source, we feel strongly that to really do something well,
+              you have to get a lot of people involved.
+            </h1>
+            <Link
+              to={{
+                pathname: "https://forms.gle/xSeLtcHVU8e42t9b8",
+              }}
+              target="_blank"
+            >
+              <DefaultButton
+                size="large"
+                variant="secondary"
+                className={classNames.footerBtn}
               >
-               
-               <Row gutter={{ xs: 12, sm: 12, md: 24, lg: 32 }}>
-                   <Col className = "gutter-row" lg={16} md={24} sm={24} xs={24}>
-                <Title size={40} style={{ alignContent: "left", color: "#000000" }}>
-                In open source, we feel strongly that to really do something well, you have to get a lot of people involved.
+                Become a Member
+              </DefaultButton>
+            </Link>
+          </div>
+        </DefaultCard>
+      </div>
+    </div>
+  );
+};
 
-                </Title>
-                </Col>
-                <Col className = "gutter-row" lg={8} md={24} sm={24} xs={24}>
-                <DefaultButton variant="secondary" size="large" className={classNames.navBtn}>Become a Member</DefaultButton>
-                </Col>
-                </Row>
-
-
-              </DefaultCard>
-
-
-            
-            </div>
-       
-
-    ); 
-            };
-            export default FooterCTA;
-           
-
-
+export default FooterCard;
