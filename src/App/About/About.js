@@ -11,7 +11,7 @@ return(
     <div className={classNames.crd+""+classNames.soft+""+classNames.medium+""+classNames.noshadow+""+classNames.sm+""+classNames.md+""+classNames.lg}>
        
     <Row>
-      <Col span={24}><h2>lorem ipsum dolor si amet</h2></Col>
+      <Col span={24}><h2>lorem ipsum dollor si amet</h2></Col>
     </Row>
     <Divider />
     <Row gutter={{ xs: 12, sm: 12, md: 24, lg: 32 }}>
@@ -22,17 +22,17 @@ return(
       </Col>
       <Col className="gutter-row" span={6}>
       <DefaultCard className="crd">
-          <h1>100+ Events held.</h1>
+          <h1>1000+ people influenced</h1>
       </DefaultCard>
       </Col>
       <Col className="gutter-row" span={6}>
       <DefaultCard className="crd">
-          <h1>100+ Events held.</h1>
+          <h1>2 hackathons</h1>
       </DefaultCard>
       </Col>
       <Col className="gutter-row" span={6}>
       <DefaultCard className="crd">
-          <h1>100+ Events held.</h1>
+          <h1>20+ Projects</h1>
       </DefaultCard>
       </Col>
     </Row>
