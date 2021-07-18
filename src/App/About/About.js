@@ -18,9 +18,9 @@ const About = () => {
             Get to know the FOSS Community of NSBM
           </Title>
           <p>
-          At FOSS we have done a great deal of sessions regarding the Open source. 
-          We make sure that individuals gain knowledge and opportunities to enhance their future.
-
+            At FOSS Communnity of NSBM we have done a great deal of sessions and
+            activities regarding the open source. We make sure that individuals
+            gain knowledge and opportunities to enhance their future.
           </p>
         </div>
         <div className={classNames.cardWrapper}>
