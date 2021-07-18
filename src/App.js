@@ -7,6 +7,8 @@ import Header from "./App/Header/Header";
 import About from "./App/About/About";
 import FAQ from "./App/FAQ/FAQ";
 import FooterCard from "./App/FooterCard/FooterCard";
+import FooterCTA from "./App/FooterCTA/FooterCTA";
+
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
         <Header />
         <About />
         <FAQ />
+        <FooterCTA />
         <FooterCard />
         <Footer />
       </div>
