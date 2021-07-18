@@ -6,8 +6,9 @@ type Props = {
   children?: React.ReactNode;
   className?: string;
   style?: React.CSSProperties;
-  padding?: "lg" | "md" | "sm";
+  padding?: "lg" | "md" | "sm" | "no-padding";
   shadow?: "medium" | "soft" | "no-shadow";
+  border?: "pixel" | "no-border";
 };
 
 export default function DefaultCard({
@@ -15,12 +16,13 @@ export default function DefaultCard({
   className,
   padding = "md",
   shadow = "soft",
+  border = "pixel",
   ...props
 }: Props): JSX.Element {
   return (
     <Card
       {...props}
-      className={`${classNames.card} ${classNames[padding]} ${classNames[shadow]} ${className} `}
+      className={`${classNames.card} ${classNames[padding]} ${classNames[shadow]} ${classNames[border]} ${className} `}
     >
       {children}
     </Card>

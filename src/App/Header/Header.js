@@ -1,7 +1,9 @@
 import classNames from "./Header.module.scss";
 import { DefaultButton } from "../../components";
-import { PageHeader, Descriptions } from "antd";
+import { PageHeader, Descriptions, Typography } from "antd";
 import { Link } from "react-router-dom";
+
+const { Title } = Typography;
 
 const Header = () => {
   return (
@@ -10,11 +12,13 @@ const Header = () => {
         <PageHeader>
           <div className={classNames.headerContent}>
             <Descriptions.Item>
-              <h1>
+              <Title level={2} style={{ color: "#fff" }}>
                 Volunteering is an act of heroism on a grand scale. And it
                 matters profoundly.
-              </h1>
-              <h4>– William J. Clinton</h4>
+              </Title>
+              <Title level={5} style={{ color: "#fff" }}>
+                – William J. Clinton
+              </Title>
             </Descriptions.Item>
           </div>
           <Link
