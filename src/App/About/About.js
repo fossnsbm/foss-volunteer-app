@@ -14,7 +14,9 @@ const About = () => {
     <div className={classNames.about}>
       <div className={classNames.aboutWrapper}>
         <div className={classNames.aboutContent}>
-          <Title level={2}>Get to know the FOSS Community of NSBM</Title>
+          <Title level={2} style={{ color: "#8bc34a" }}>
+            Get to know the FOSS Community of NSBM
+          </Title>
           <p>
             Contribute to the society with developments and new concepts
             transforming young lives to feel as a part of the world’s largest
@@ -26,10 +28,15 @@ const About = () => {
             <Col className="gutter-row" lg={6} md={12} sm={12} xs={24}>
               <DefaultCard
                 padding="sm"
-                style={{ height: "260px", marginBottom: "20px" }}
+                border="no-border"
+                style={{
+                  height: "260px",
+                  marginBottom: "20px",
+                  backgroundColor: "#f5f5f5",
+                }}
               >
-                <MdEventAvailable size={48} />
-                <Title level={2}>
+                <MdEventAvailable size={48} color={"#8c8c8c"} />
+                <Title level={2} style={{ fontSize: "48px" }}>
                   <CountUp end={1000} redraw={true}>
                     {({ countUpRef, start }) => (
                       <VisibilitySensor onChange={start} delayedCall>
@@ -38,16 +45,23 @@ const About = () => {
                     )}
                   </CountUp>
                 </Title>
-                <Title level={4}>Events Held</Title>
+                <Title level={4} style={{ color: "#8c8c8c" }}>
+                  Events Held
+                </Title>
               </DefaultCard>
             </Col>
             <Col className="gutter-row" lg={6} md={12} sm={12} xs={24}>
               <DefaultCard
                 padding="sm"
-                style={{ height: "260px", marginBottom: "20px" }}
+                border="no-border"
+                style={{
+                  height: "260px",
+                  marginBottom: "20px",
+                  backgroundColor: "#f5f5f5",
+                }}
               >
-                <IoIosPeople size={48} />
-                <Title level={2}>
+                <IoIosPeople size={48} color={"#8c8c8c"} />
+                <Title level={2} style={{ fontSize: "48px" }}>
                   <CountUp end={10000} redraw={true}>
                     {({ countUpRef, start }) => (
                       <VisibilitySensor onChange={start} delayedCall>
@@ -56,16 +70,23 @@ const About = () => {
                     )}
                   </CountUp>
                 </Title>
-                <Title level={4}>People Influenced</Title>
+                <Title level={4} style={{ color: "#8c8c8c" }}>
+                  People Influenced
+                </Title>
               </DefaultCard>
             </Col>
             <Col className="gutter-row" lg={6} md={12} sm={12} xs={24}>
               <DefaultCard
                 padding="sm"
-                style={{ height: "260px", marginBottom: "20px" }}
+                border="no-border"
+                style={{
+                  height: "260px",
+                  marginBottom: "20px",
+                  backgroundColor: "#f5f5f5",
+                }}
               >
-                <FaCode size={48} />
-                <Title level={2}>
+                <FaCode size={48} color={"#8c8c8c"} />
+                <Title level={2} style={{ fontSize: "48px" }}>
                   <CountUp end={20} redraw={true}>
                     {({ countUpRef, start }) => (
                       <VisibilitySensor onChange={start} delayedCall>
@@ -74,16 +95,23 @@ const About = () => {
                     )}
                   </CountUp>
                 </Title>
-                <Title level={4}>Hackathons Organized</Title>
+                <Title level={4} style={{ color: "#8c8c8c" }}>
+                  Hackathons Organized
+                </Title>
               </DefaultCard>
             </Col>
             <Col className="gutter-row" lg={6} md={12} sm={12} xs={24}>
               <DefaultCard
                 padding="sm"
-                style={{ height: "260px", marginBottom: "20px" }}
+                border="no-border"
+                style={{
+                  height: "260px",
+                  marginBottom: "20px",
+                  backgroundColor: "#f5f5f5",
+                }}
               >
-                <FaProjectDiagram size={48} />
-                <Title level={2}>
+                <FaProjectDiagram size={48} color={"#8c8c8c"} />
+                <Title level={2} style={{ fontSize: "48px" }}>
                   <CountUp end={10} redraw={true}>
                     {({ countUpRef, start }) => (
                       <VisibilitySensor onChange={start} delayedCall>
@@ -92,7 +120,9 @@ const About = () => {
                     )}
                   </CountUp>
                 </Title>
-                <Title level={4}>Projects Done</Title>
+                <Title level={4} style={{ color: "#8c8c8c" }}>
+                  Projects Done
+                </Title>
               </DefaultCard>
             </Col>
           </Row>
