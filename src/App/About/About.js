@@ -1,5 +1,5 @@
 import classNames from "./About.module.scss";
-import { Row, Col, Divider, Typography } from "antd";
+import { Row, Col, Typography } from "antd";
 import { DefaultCard } from "../../components";
 
 const { Title } = Typography;
@@ -33,12 +33,6 @@ const About = () => {
             classNames.lg
           }
         >
-          <Row>
-            <Col span={24}>
-              <h2>lorem ipsum dollor si amet</h2>
-            </Col>
-          </Row>
-          <Divider />
           <Row gutter={{ xs: 12, sm: 12, md: 24, lg: 32 }}>
             <Col className="gutter-row" span={6}>
               <DefaultCard className="crd">
