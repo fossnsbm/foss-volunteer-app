@@ -53,28 +53,36 @@ const FAQ = () => {
                   key="1"
                   className="site-collapse-custom-panel"
                 >
-                  <p style={{ fontWeight: "normal" }}>{text}</p>
+                  <p style={{ fontWeight: "normal", paddingLeft: 29 }}>
+                    {text}
+                  </p>
                 </Panel>
                 <Panel
                   header="Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
                   key="2"
                   className="site-collapse-custom-panel"
                 >
-                  <p style={{ fontWeight: "normal" }}>{text}</p>
+                  <p style={{ fontWeight: "normal", paddingLeft: 29 }}>
+                    {text}
+                  </p>
                 </Panel>
                 <Panel
                   header="This is panel header 3"
                   key="3"
                   className="site-collapse-custom-panel"
                 >
-                  <p style={{ fontWeight: "normal" }}>{text}</p>
+                  <p style={{ fontWeight: "normal", paddingLeft: 29 }}>
+                    {text}
+                  </p>
                 </Panel>
                 <Panel
                   header="This is panel header 4"
                   key="4"
                   className="site-collapse-custom-panel"
                 >
-                  <p style={{ fontWeight: "normal" }}>{text}</p>
+                  <p style={{ fontWeight: "normal", paddingLeft: 29 }}>
+                    {text}
+                  </p>
                 </Panel>
               </Collapse>
             </div>
