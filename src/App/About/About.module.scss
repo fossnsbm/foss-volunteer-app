@@ -1,0 +1,23 @@
+.about {
+  margin: 0;
+  padding: 20px 0;
+}
+
+.aboutWrapper {
+  width: 90%;
+  max-width: 1200px;
+  margin: 10px auto;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.aboutContent {
+  width: 80%;
+  text-align: center;
+  > p {
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 1.5;
+  }
+}
