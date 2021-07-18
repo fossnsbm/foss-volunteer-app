@@ -6,6 +6,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import Header from "./App/Header/Header";
 import About from "./App/About/About";
 import FAQ from "./App/FAQ/FAQ";
+import FooterCard from "./App/FooterCard/FooterCard";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Header />
         <About />
         <FAQ />
+        <FooterCard />
         <Footer />
       </div>
     </Router>

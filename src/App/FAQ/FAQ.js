@@ -18,11 +18,14 @@ const FAQ = () => {
         <Row>
           <Col lg={10} md={24} sm={24} xs={24}>
             <div className={classNames.faqContent}>
-              <Title level={2} style={{ color: "#8bc34a" }}>Frequently Asked Questions</Title>
+              <Title level={2} style={{ color: "#8bc34a" }}>
+                Frequently Asked Questions
+              </Title>
               <p>
-                Contribute to the society with developments and new concepts
-                transforming young lives to feel as a part of the world’s
-                largest developing community
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
               </p>
             </div>
           </Col>
