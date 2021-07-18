@@ -10,7 +10,7 @@ const Navbar = () => {
       <div className={classNames.nav}>
         <Link to="/">
           <Image
-            height={72}
+            height={55}
             src={logo}
             preview={false}
             className={classNames.logo}
@@ -18,6 +18,7 @@ const Navbar = () => {
         </Link>
         <div className={classNames.navLinks}>
           <Link to="/">Home</Link>
+          <Link to="/">About</Link>
           <a href="https://fossnsbm.org/">Blog</a>
           <a href="https://fossnsbm.org/events">Events</a>
           <a href="https://forum.fossnsbm.org/">Forum</a>
@@ -30,7 +31,7 @@ const Navbar = () => {
           target="_blank"
         >
           <DefaultButton variant="secondary" className={classNames.navBtn}>
-            Become a Member
+            Apply
           </DefaultButton>
         </Link>
       </div>

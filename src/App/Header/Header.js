@@ -9,7 +9,7 @@ const Header = () => {
       <div className={classNames.headerWrapper}>
         <PageHeader>
           <div className={classNames.headerContent}>
-            <Descriptions.Item label="Remarks">
+            <Descriptions.Item>
               <h1>
                 Volunteering is an act of heroism on a grand scale. And it
                 matters profoundly.
