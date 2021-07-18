@@ -1,0 +1,35 @@
+
+.crd {
+    border-radius: 8px;
+    border: 1px solid #e2e2e2;
+    
+    color: #000;
+    overflow: hidden;
+    width: 25%;
+    height: auto;
+  }
+  
+  .sm {
+    padding: 14px 16px;
+  }
+  
+  .md {
+    padding: 18px 24px;
+  }
+  
+  .lg {
+    padding: 30px 32px;
+  }
+  
+  .medium {
+    box-shadow: 0 1px 2px 1px rgba(128, 152, 213, 0.17);
+  }
+  
+  .soft {
+    box-shadow: 0 6px 18px 0 rgba(128, 152, 213, 0.08);
+  }
+  
+  .no-shadow {
+    box-shadow: none;
+  }
+  
