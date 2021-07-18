@@ -18,9 +18,9 @@ const About = () => {
             Get to know the FOSS Community of NSBM
           </Title>
           <p>
-            Contribute to the society with developments and new concepts
-            transforming young lives to feel as a part of the world’s largest
-            developing community
+          At FOSS we have done a great deal of sessions regarding the Open source. 
+          We make sure that individuals gain knowledge and opportunities to enhance their future.
+
           </p>
         </div>
         <div className={classNames.cardWrapper}>
