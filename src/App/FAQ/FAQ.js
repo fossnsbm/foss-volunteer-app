@@ -22,10 +22,8 @@ const FAQ = () => {
                 Frequently Asked Questions
               </Title>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
+                We are here to help you to resolve any question you may have.
+                You can explore the questions below to find what you are looking for.
               </p>
             </div>
           </Col>
