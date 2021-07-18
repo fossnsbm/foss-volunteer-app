@@ -1,0 +1,31 @@
+.about {
+  margin: 0;
+  padding: 20px 0;
+}
+
+.aboutWrapper {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.aboutContent {
+  &:first-child {
+    width: 80%;
+    margin: 30px auto;
+  }
+  margin: 20px 0;
+  text-align: center;
+  > p {
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 1.5;
+  }
+}
+
+.cardWrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}

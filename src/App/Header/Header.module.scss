@@ -1,0 +1,36 @@
+.header {
+  background: url("../../assets/img/work.jpg") no-repeat center/ cover;
+  height: 500px;
+}
+
+.headerWrapper {
+  width: 90%;
+  max-width: 1200px;
+  max-height: 500px;
+  margin: 0 auto;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+
+.headerContent {
+  width: 50%;
+  color: #fff;
+  margin: 100px 0 20px 0 !important;
+}
+
+.headerBtn {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 768px) {
+  .headerContent {
+    width: 100%;
+    text-align: center;
+  }
+  .headerWrapper {
+    text-align: center;
+  }
+}
