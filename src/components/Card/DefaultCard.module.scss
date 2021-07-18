@@ -1,9 +1,16 @@
 .card {
   border-radius: 8px;
-  border: 1px solid #e2e2e2;
   background-color: #fff;
   color: #000;
   overflow: hidden;
+}
+
+.pixel {
+  border: 1px solid #e2e2e2;
+}
+
+.no-border {
+  border: none;
 }
 
 .sm {
@@ -16,6 +23,10 @@
 
 .lg {
   padding: 30px 32px;
+}
+
+.no-padding {
+  padding: 0;
 }
 
 .medium {

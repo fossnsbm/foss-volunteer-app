@@ -1,18 +1,21 @@
-
 import "./App.scss";
-import About from "../src/App/About/About";
 import "antd/dist/antd.css";
+import Navbar from "./App/Navbar/Navbar";
+import { BrowserRouter as Router } from "react-router-dom";
+import Header from "./App/Header/Header";
+import About from "./App/About/About";
+import FAQ from "./App/FAQ/FAQ";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-   
-
-        <About></About>
-      </header>
-      
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar />
+        <Header />
+        <About />
+        <FAQ />
+      </div>
+    </Router>
   );
 }
 
