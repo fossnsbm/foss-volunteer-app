@@ -34,7 +34,7 @@ const FAQ = () => {
                 bordered={false}
                 defaultActiveKey={["1"]}
                 expandIcon={({ isActive }) => (
-                  <RiArrowRightSFill rotate={isActive ? 90 : 0} />
+                  <RiArrowRightSFill size={18} rotate={isActive ? 90 : 0} />
                 )}
                 className="site-collapse-custom-collapse"
                 style={{
