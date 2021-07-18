@@ -18,8 +18,8 @@ const About = () => {
             Get to know the FOSS Community of NSBM
           </Title>
           <p>
-            At FOSS Communnity of NSBM we have done a great deal of sessions and
-            activities regarding the open source. We make sure that individuals
+            At FOSS Communnity NSBM we have done a great deal of sessions and
+            activities regarding open source. We make sure that individuals
             gain knowledge and opportunities to enhance their future.
           </p>
         </div>
