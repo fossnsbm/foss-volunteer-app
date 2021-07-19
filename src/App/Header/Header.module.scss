@@ -1,5 +1,5 @@
 .header {
-  background: url("../../assets/img/banner.png") no-repeat center/ cover;
+  background: url("../../assets/img/lg.png") no-repeat center/ cover;
   height: 500px;
 }
 
@@ -29,14 +29,28 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .header {
+    background: url("../../assets/img/sm.png") no-repeat center/ cover;
+    height: 650px;
+  }
   .headerContent {
     width: 100%;
     text-align: center;
+    margin: 20px 0 20px 0 !important;
     :first-child {
       width: 100%;
     }
   }
   .headerWrapper {
     text-align: center;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .header {
+    background: url("../../assets/img/xs.png") no-repeat center/ cover;
+  }
+  .headerContent {
+    margin: 40px 0 20px 0 !important;
   }
 }
