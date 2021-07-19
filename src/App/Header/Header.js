@@ -11,14 +11,12 @@ const Header = () => {
       <div className={classNames.headerWrapper}>
         <PageHeader>
           <div className={classNames.headerContent}>
-            <Descriptions.Item>
-              <Title level={2} style={{ color: "#fff" }}>
+            <Descriptions.Item className={classNames.headerText}>
+              <Title level={2}>
                 Volunteering is an act of heroism on a grand scale. And it
                 matters profoundly.
               </Title>
-              <Title level={5} style={{ color: "#fff" }}>
-                – William J. Clinton
-              </Title>
+              <Title level={5}>– William J. Clinton</Title>
             </Descriptions.Item>
           </div>
           <Link
@@ -27,7 +25,11 @@ const Header = () => {
             }}
             target="_blank"
           >
-            <DefaultButton size="large" className={classNames.headerBtn}>
+            <DefaultButton
+              size="large"
+              variant="secondary"
+              className={classNames.headerBtn}
+            >
               Become a Member
             </DefaultButton>
           </Link>

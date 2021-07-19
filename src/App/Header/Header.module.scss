@@ -1,5 +1,5 @@
 .header {
-  background: url("../../assets/img/work.jpg") no-repeat center/ cover;
+  background: url("../../assets/img/banner.png") no-repeat center/ cover;
   height: 500px;
 }
 
@@ -17,6 +17,9 @@
   width: 50%;
   color: #fff;
   margin: 100px 0 20px 0 !important;
+  :first-child {
+    width: 80%;
+  }
 }
 
 .headerBtn {
@@ -29,6 +32,9 @@
   .headerContent {
     width: 100%;
     text-align: center;
+    :first-child {
+      width: 100%;
+    }
   }
   .headerWrapper {
     text-align: center;
