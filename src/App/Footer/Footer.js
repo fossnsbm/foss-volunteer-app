@@ -24,14 +24,11 @@ const Footer = () => {
               </Title>
             </div>
             <p className={classNames.footerContent}>
-            FOSS NSBM is a platform for Sri Lankans 
-            to organise themselves around the global 
-            Free and Open Source Software movement.
-            We aim to prove out best resources and 
-            benifits to our users. At FOSS  we have 
-            done a great deal of projects based on 
-            the Open source.We have given out open  
-            opportunity to contribute individually.
+              FOSS NSBM is a platform for Sri Lankans to organise themselves
+              around the global Free and Open Source Software movement. We aim
+              to prove out best resources and benifits to our users. At FOSS we
+              have done a great deal of projects based on the Open source.We
+              have given out open opportunity to contribute individually.
             </p>
             <div className={classNames.socials}>
               <a href="https://www.facebook.com/foss.nsbm/">
@@ -60,7 +57,7 @@ const Footer = () => {
             </Title>
             <div className={classNames.footerMenu}>
               <Link to="/">Home</Link>
-              <Link to="/">About</Link>
+              <a href="https://fossnsbm.org/about/">About</a>
               <a href="https://fossnsbm.org/">Blog</a>
               <a href="https://fossnsbm.org/events">Events</a>
               <a href="https://forum.fossnsbm.org/">Forum</a>
