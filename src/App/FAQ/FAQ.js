@@ -5,10 +5,23 @@ import { RiArrowRightSFill } from "react-icons/ri";
 const { Title } = Typography;
 const { Panel } = Collapse;
 
-const text = `
-  A dog is a type of domesticated animal.
-  Known for its loyalty and faithfulness,
-  it can be found as a welcome guest in many households across the world.
+const text1 = `
+  First,fill the volunteer form provided below.
+  Confirmation mail will be sent to inform you are a volunteer of the FOSS Community NSBM.
+`;
+
+const text2 = `
+  NO.You don't need any volunteering experiences to join the FOSS community.
+  You can gain a lot of experiences by volunteering for the FOSS community.
+  And you can develop your skills as well.
+`;
+
+const text3 = `
+  There are several events, projects and competitions. So you can contribute and participate in any.
+`;
+
+const text4 = `
+  Yes.You need the membership.
 `;
 
 const FAQ = () => {
@@ -54,7 +67,7 @@ const FAQ = () => {
                   className="site-collapse-custom-panel"
                 >
                   <p style={{ fontWeight: "normal", paddingLeft: 29 }}>
-                    {text}
+                    {text1}
                   </p>
                 </Panel>
                 <Panel
@@ -63,7 +76,7 @@ const FAQ = () => {
                   className="site-collapse-custom-panel"
                 >
                   <p style={{ fontWeight: "normal", paddingLeft: 29 }}>
-                    {text}
+                    {text2}
                     
                   </p>
                 </Panel>
@@ -73,7 +86,7 @@ const FAQ = () => {
                   className="site-collapse-custom-panel"
                 >
                   <p style={{ fontWeight: "normal", paddingLeft: 29 }}>
-                    {text}
+                    {text3}
                   </p>
                 </Panel>
                 <Panel
@@ -82,7 +95,7 @@ const FAQ = () => {
                   className="site-collapse-custom-panel"
                 >
                   <p style={{ fontWeight: "normal", paddingLeft: 29 }}>
-                    {text}
+                    {text4}
                   </p>
                 </Panel>
               </Collapse>
