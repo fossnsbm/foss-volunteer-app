@@ -58,7 +58,7 @@ const Footer = () => {
             <Title level={3} style={{ color: "#fff" }}>
               Site Map
             </Title>
-            <div className={classNames.footerMenu}>
+            <div className={classNames.footerMenu} style={{marginLeft:"-12%"}}>
               <Link to="/">Home</Link>
               <Link to="/">About</Link>
               <a href="https://fossnsbm.org/">Blog</a>

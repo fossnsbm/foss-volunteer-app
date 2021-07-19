@@ -58,6 +58,7 @@
   text-decoration: none !important;
   font-size: 16px;
   font-weight: 500;
+ 
   > a {
     text-decoration: none !important;
     color: #fff !important;
@@ -95,7 +96,7 @@
   .footerMenu {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align: left;
   }
   .newsletter {
     margin: 30px 0;
