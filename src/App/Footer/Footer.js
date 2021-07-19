@@ -52,10 +52,10 @@ const Footer = () => {
             xs={24}
             className={classNames.footerMiddle}
           >
-            <Title level={3} style={{ color: "#fff" }}>
+            <Title level={3} style={{ color: "#fff", textAlign:"center" }}>
               Site Map
             </Title>
-            <div className={classNames.footerMenu}>
+            <div className={classNames.footerMenu} style={{marginLeft:"-45px"}}>
               <Link to="/">Home</Link>
               <a href="https://fossnsbm.org/about/">About</a>
               <a href="https://fossnsbm.org/">Blog</a>
