@@ -6,22 +6,20 @@ const { Title } = Typography;
 const { Panel } = Collapse;
 
 const text1 = `
-  First,fill the volunteer form provided below.
-  Confirmation mail will be sent to inform you are a volunteer of the FOSS Community NSBM.
+  Please fill the provided volunteer form. We will contact you after reviewing your application.
 `;
 
 const text2 = `
-  NO.You don't need any volunteering experiences to join the FOSS community.
-  You can gain a lot of experiences by volunteering for the FOSS community.
-  And you can develop your skills as well.
+  No. You don't need any volunteering experiences to join the FOSS Community of NSBM.
+  You can gain a lot of experiences and develop your skills by volunteering for FOSS Community of NSBM.
 `;
 
 const text3 = `
-  There are several events, projects and competitions. So you can contribute and participate in any.
+  We organize technical and other extra curricular events and activities at FOSS Community of NSBM. We also contribute to open source projects as well. You are welcome to contribute for any.
 `;
 
 const text4 = `
-  Yes.You need the membership.
+  There's no fee to become a member at FOSS Community of NSBM. Anyone is welcome to join us and contribute to the world of open source.
 `;
 
 const FAQ = () => {
@@ -62,7 +60,7 @@ const FAQ = () => {
                 }}
               >
                 <Panel
-                  header="How to get started?"
+                  header="How do I volunteer?"
                   key="1"
                   className="site-collapse-custom-panel"
                 >
@@ -71,13 +69,12 @@ const FAQ = () => {
                   </p>
                 </Panel>
                 <Panel
-                  header="Do I need previous experiences or qualifications for volunteering? "
+                  header="Do I need previous experiences or qualifications for volunteering?"
                   key="2"
                   className="site-collapse-custom-panel"
                 >
                   <p style={{ fontWeight: "normal", paddingLeft: 29 }}>
                     {text2}
-                    
                   </p>
                 </Panel>
                 <Panel
