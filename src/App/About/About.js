@@ -90,7 +90,7 @@ const About = () => {
               >
                 <FaCode size={48} color={"#8c8c8c"} />
                 <Title level={2} style={{ fontSize: "48px" }}>
-                  <CountUp end={20} redraw={true}>
+                  <CountUp end={10} redraw={true}>
                     {({ countUpRef, start }) => (
                       <VisibilitySensor onChange={start} delayedCall>
                         <span ref={countUpRef} />
@@ -116,7 +116,7 @@ const About = () => {
               >
                 <FaProjectDiagram size={48} color={"#8c8c8c"} />
                 <Title level={2} style={{ fontSize: "48px" }}>
-                  <CountUp end={10} redraw={true}>
+                  <CountUp end={5} redraw={true}>
                     {({ countUpRef, start }) => (
                       <VisibilitySensor onChange={start} delayedCall>
                         <span ref={countUpRef} />
