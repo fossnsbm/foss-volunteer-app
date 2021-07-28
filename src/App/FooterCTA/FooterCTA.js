@@ -23,11 +23,12 @@ const FooterCard = () => {
               target="_blank"
             >
               <DefaultButton
+                disabled={true}
                 size="large"
                 variant="secondary"
                 className={classNames.footerBtn}
               >
-                Become a Member
+                Applications Closed
               </DefaultButton>
             </Link>
           </div>

@@ -30,7 +30,9 @@ const Navbar = () => {
           }}
           target="_blank"
         >
-          <DefaultButton className={classNames.navBtn}>Sign Up</DefaultButton>
+          <DefaultButton disabled className={classNames.navBtn}>
+            Sign Up
+          </DefaultButton>
         </Link>
       </div>
     </div>
