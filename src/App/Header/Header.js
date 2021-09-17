@@ -26,12 +26,12 @@ const Header = () => {
             target="_blank"
           >
             <DefaultButton
-              disabled={true}
+              disabled={false}
               size="large"
               variant="secondary"
               className={classNames.headerBtn}
             >
-              Applications Closed
+              Sign Up
             </DefaultButton>
           </Link>
         </PageHeader>
