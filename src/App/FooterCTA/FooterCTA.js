@@ -28,7 +28,7 @@ const FooterCard = () => {
                 variant="secondary"
                 className={classNames.footerBtn}
               >
-                Sign Up
+                Become a member
               </DefaultButton>
             </Link>
           </div>
