@@ -6,10 +6,12 @@ import VisibilitySensor from "react-visibility-sensor";
 import { MdEventAvailable } from "react-icons/md";
 import { IoIosPeople } from "react-icons/io";
 import { FaCode, FaProjectDiagram } from "react-icons/fa";
+import { useState } from "react";
 
 const { Title } = Typography;
 
 const About = () => {
+  const [focus, setFocus] = useState(false);
   return (
     <div className={classNames.about}>
       <div className={classNames.aboutWrapper}>
@@ -19,8 +21,8 @@ const About = () => {
           </Title>
           <p>
             At FOSS Communnity NSBM we have done a great deal of sessions and
-            activities regarding open source. We make sure that individuals
-            gain knowledge and opportunities to enhance their future.
+            activities regarding open source. We make sure that individuals gain
+            knowledge and opportunities to enhance their future.
           </p>
         </div>
         <div className={classNames.cardWrapper}>
@@ -38,9 +40,16 @@ const About = () => {
               >
                 <MdEventAvailable size={48} color={"#8c8c8c"} />
                 <Title level={2} style={{ fontSize: "48px" }}>
-                  <CountUp end={1000} redraw={true}>
+                  <CountUp start={focus ? 0 : null} end={1000} redraw={true}>
                     {({ countUpRef, start }) => (
-                      <VisibilitySensor onChange={start} delayedCall>
+                      <VisibilitySensor
+                        delayedCall
+                        onChange={(isVisible) => {
+                          if (isVisible) {
+                            setFocus(true);
+                          }
+                        }}
+                      >
                         <span ref={countUpRef} />
                       </VisibilitySensor>
                     )}
@@ -64,9 +73,16 @@ const About = () => {
               >
                 <IoIosPeople size={48} color={"#8c8c8c"} />
                 <Title level={2} style={{ fontSize: "48px" }}>
-                  <CountUp end={10000} redraw={true}>
+                  <CountUp start={focus ? 0 : null} end={10000} redraw={true}>
                     {({ countUpRef, start }) => (
-                      <VisibilitySensor onChange={start} delayedCall>
+                      <VisibilitySensor
+                        delayedCall
+                        onChange={(isVisible) => {
+                          if (isVisible) {
+                            setFocus(true);
+                          }
+                        }}
+                      >
                         <span ref={countUpRef} />
                       </VisibilitySensor>
                     )}
@@ -90,9 +106,16 @@ const About = () => {
               >
                 <FaCode size={48} color={"#8c8c8c"} />
                 <Title level={2} style={{ fontSize: "48px" }}>
-                  <CountUp end={10} redraw={true}>
+                  <CountUp start={focus ? 0 : null} end={10} redraw={true}>
                     {({ countUpRef, start }) => (
-                      <VisibilitySensor onChange={start} delayedCall>
+                      <VisibilitySensor
+                        delayedCall
+                        onChange={(isVisible) => {
+                          if (isVisible) {
+                            setFocus(true);
+                          }
+                        }}
+                      >
                         <span ref={countUpRef} />
                       </VisibilitySensor>
                     )}
@@ -116,9 +139,16 @@ const About = () => {
               >
                 <FaProjectDiagram size={48} color={"#8c8c8c"} />
                 <Title level={2} style={{ fontSize: "48px" }}>
-                  <CountUp end={5} redraw={true}>
+                  <CountUp start={focus ? 0 : null} end={5} redraw={true}>
                     {({ countUpRef, start }) => (
-                      <VisibilitySensor onChange={start} delayedCall>
+                      <VisibilitySensor
+                        delayedCall
+                        onChange={(isVisible) => {
+                          if (isVisible) {
+                            setFocus(true);
+                          }
+                        }}
+                      >
                         <span ref={countUpRef} />
                       </VisibilitySensor>
                     )}
