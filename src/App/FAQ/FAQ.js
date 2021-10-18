@@ -1,6 +1,6 @@
 import classNames from "./FAQ.module.scss";
 import { Typography, Collapse, Row, Col } from "antd";
-import { RiArrowRightSFill } from "react-icons/ri";
+import { CaretRightOutlined } from "@ant-design/icons";
 
 const { Title } = Typography;
 const { Panel } = Collapse;
@@ -34,7 +34,8 @@ const FAQ = () => {
               </Title>
               <p>
                 We are here to help you to resolve any question you may have.
-                You can explore the questions below to find what you are looking for.
+                You can explore the questions below to find what you are looking
+                for.
               </p>
             </div>
           </Col>
@@ -46,7 +47,7 @@ const FAQ = () => {
                 bordered={false}
                 defaultActiveKey={["1"]}
                 expandIcon={({ isActive }) => (
-                  <RiArrowRightSFill size={18} rotate={isActive ? 90 : 0} />
+                  <CaretRightOutlined rotate={isActive ? 90 : 0} />
                 )}
                 className="site-collapse-custom-collapse"
                 style={{
