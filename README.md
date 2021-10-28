@@ -4,12 +4,16 @@
 <img width="75%" align="right" alt="Github" src="https://user-images.githubusercontent.com/66766682/139211917-ac01c431-f463-4bdd-aef9-d9dd5f1f297d.png" />
 
 This is the repository for the <br>
-FOSS-NSBM voulunteers Website.<br>
-Feel free to contribute and <br>
+FOSS-NSBM voulunteers Website.
+Feel free to contribute and<br>
 be sure to follow the steps and <br>
 resources listed below!<br>
+<br>
+<br>
 
-_For more information about the organization and to volunteer, please visit the website [here](https://volunteer.fossnsbm.org/)_
+
+_For more information about the organization and to volunteer, please visit the website [here](https://volunteer.fossnsbm.org/)._
+ 
 
 
 
