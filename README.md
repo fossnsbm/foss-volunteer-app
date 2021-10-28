@@ -4,7 +4,7 @@
 <img width="75%" align="right" alt="Github" src="https://user-images.githubusercontent.com/66766682/139211917-ac01c431-f463-4bdd-aef9-d9dd5f1f297d.png" />
 
 This is the repository for the <br>
-official FOSS-NSBM Website.<br>
+FOSS-NSBM voulunteers Website.<br>
 Feel free to contribute and <br>
 be sure to follow the steps and <br>
 resources listed below!<br>
